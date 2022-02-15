@@ -1,0 +1,17 @@
+{
+  "name": "starbuckslandingpage",
+  "version": "1.0.0",
+  "description": "starstarbucks landing page clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "responsive",
+    "mobile",
+    "first",
+    "starbucks"
+  ],
+  "author": "Geekers-Joel237",
+  "license": "MIT"
+}
