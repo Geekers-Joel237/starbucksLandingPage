@@ -23,8 +23,8 @@
 
         <button 
         class="navbar-toggler" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navmenu" >
+        data-bs-toggle="offcanvas" 
+        data-bs-target="#navmenuOff" >
         <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -57,6 +57,41 @@
         </div>
     </div>
     
+    <!-- navmenuOff -->
+    <div class="offcanvas offcanvas-end  h4 pt-5" id="navmenuOff" tabindex="-1">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav text-uppercase ">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Rewards</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Gift Cards</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto gap-4">
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Find a store
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link btn border rounded-pill">Sign in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link btn btn-dark rounded-pill text-white px-3">Join now</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
 </nav>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
