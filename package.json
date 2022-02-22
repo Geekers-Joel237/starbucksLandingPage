@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "starstarbucks landing page clone",
   "main": "index.js",
+  "homepage":"https://geekers-joel237.github.io/starbuckslandingpage",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d dist"
   },
   "keywords": [
     "responsive",
@@ -13,5 +15,8 @@
     "starbucks"
   ],
   "author": "Geekers-Joel237",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
